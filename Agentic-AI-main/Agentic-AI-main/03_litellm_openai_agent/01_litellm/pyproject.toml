@@ -1,0 +1,14 @@
+[project]
+name = "litellm-01"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = []
+
+[project.scripts]
+litellm-01 = "litellm_01:main"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"

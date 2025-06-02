@@ -1,0 +1,14 @@
+[project]
+name = "openrouter-test"
+version = "0.1.0"
+description = "This is my first openrouter project"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = []
+
+[project.scripts]
+openrouter-test = "openrouter_test:main"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
